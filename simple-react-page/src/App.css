@@ -1,0 +1,73 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Increase the gap to create consistent spacing */
+  padding: 20px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+  margin: 50px auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px; /* Adjusted margin for consistent spacing */
+  font-family: 'Lato', sans-serif;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px; /* Adjusted margin for consistent spacing */
+}
+
+.input-field {
+  width: 90%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: 0.2s border-color;
+  font-family: 'Lato', sans-serif;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #DF0610;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 20px; /* Adjusted margin for consistent spacing */
+}
+
+.submit-button {
+  background-color: #df0610;
+  color: #fff;
+  border: none;
+  padding: 12px 120px;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+  margin-top: 20px; /* Adjusted margin for consistent spacing */
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+  margin-bottom: 20px; /* Adjusted margin for consistent spacing */
+}
+.input-label {
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  color: #999; /* Gray color for the labels */
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
